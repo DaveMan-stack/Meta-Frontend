@@ -403,6 +403,7 @@ footer .copyright {
     section#products .product {
         width: 30%;
         
+        
     }
 
     section#products .product:last-of-type {
@@ -441,12 +442,3 @@ footer .copyright {
     }
 }
 
-@media screen and (min-width: 1000px) {
-    section#products .products {
-        flex-wrap: nowrap;
-    }
-    section#products .product {
-        width: 20%;
-        
-    }
-}
