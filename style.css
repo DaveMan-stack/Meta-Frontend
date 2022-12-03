@@ -267,7 +267,6 @@ section#products {
 
 .products > .menu-heading {
     text-align: center;
-    position: absolute;
     display: block;
     width: 100%;
 }
@@ -276,7 +275,6 @@ h2.h1 {
     margin: 0 auto;
     top: 0;
     left: 0;
-    position: absolute;
 }
 
 .menu-heading p {
@@ -444,6 +442,9 @@ footer .copyright {
 }
 
 @media screen and (min-width: 1000px) {
+    section#products .products {
+        flex-wrap: nowrap;
+    }
     section#products .product {
         width: 20%;
         
