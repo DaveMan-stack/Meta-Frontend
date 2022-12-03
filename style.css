@@ -348,7 +348,7 @@ section#products .product {
     font-size: 30px;
     padding: 10px 0;
     background-color: rgb(255, 255, 0);
-    color: #fff;
+    color: #000;
     cursor: pointer;
     width: 100%;
 }
