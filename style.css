@@ -176,7 +176,7 @@ main {
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 80%;
     animation: slideOne 15s infinite alternate;
     animation-delay: 2s;
     transform: translateX(-100%);
@@ -195,7 +195,7 @@ main {
 
 
 .container div {
-    width: 90%;
+    width: 100%;
     display: flex;
     min-height: 300px;
     align-items: center;
@@ -294,7 +294,7 @@ section#products .product {
     position: relative;
     background-color: #fff;
     box-shadow: 0 0 2px 1px #000;
-
+    margin: 0 auto;
 }
 
 .tag {
@@ -348,9 +348,10 @@ section#products .product {
     font-size: 30px;
     padding: 10px;
     
-    /* background-color: #000; */
+    background-color: rgb(255, 255 0);
     color: #fff;
     cursor: pointer;
+    width: 100%;
 }
 
 footer {
@@ -396,12 +397,12 @@ footer .copyright {
 @media screen and (min-width: 600px) {
     .container div {
         column-gap: 35px;
-
+        width: 100%;
     }
 
     section#products .product {
-        min-width: 30%;
-        max-width: 40%;
+        width: 30%;
+        
     }
 
     section#products .product:last-of-type {
@@ -420,6 +421,7 @@ footer .copyright {
     .call-to-action button {
         background-color:rgb(255, 255, 0);
         color: #000;
+        width: auto;
     }
 
     .call-to-action span {
@@ -435,5 +437,12 @@ footer .copyright {
 
     h2.h1 {
         top: 8%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    section#products .product {
+        width: 15%;
+        
     }
 }
