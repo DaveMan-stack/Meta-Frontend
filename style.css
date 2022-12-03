@@ -268,7 +268,6 @@ section#products {
 .products > .menu-heading {
     text-align: center;
     display: block;
-    position: absolute;
     width: 100%;
 }
 
