@@ -148,7 +148,7 @@ main {
 .bg-img {
     position: absolute;
     width: 100%;
-    background: url('../images/little-lemon6.jpg') no-repeat center center / cover;
+    background: url('images/little-lemon6.jpg') no-repeat center center / cover;
     z-index: 0;
 } 
 
@@ -195,7 +195,7 @@ main {
 
 
 .container div {
-    width: 100%;
+    width: 90%;
     display: flex;
     min-height: 300px;
     align-items: center;
@@ -206,7 +206,7 @@ main {
 }
 
 .hero-sec img {
-    min-width: 200px;
+    min-width: 160px;
     max-width: 350px;
     min-height: 150px;
     max-height: 200px;
@@ -261,7 +261,6 @@ section#products {
     padding-bottom: 90px;
     text-align: center;
     color: #000;
-    border-bottom: 5px solid #fff;
 }
 
 
@@ -355,7 +354,7 @@ section#products .product {
 }
 
 footer {
-    border-top: 2px solid #fff;
+    border-top: 1px solid #fff;
     background-color: #000;
     color: #fff;
     padding: 30px 0 0 20px;
@@ -401,7 +400,8 @@ footer .copyright {
     }
 
     section#products .product {
-        width: 30%;
+        min-width: 30%;
+        max-width: 40%;
     }
 
     section#products .product:last-of-type {
