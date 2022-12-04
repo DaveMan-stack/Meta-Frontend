@@ -107,10 +107,12 @@ nav a:hover {
 
 a#order-now {
     background-color: rgb(255, 255, 0);
-    padding: 10px;
+    padding: .4rem;
     color: #000;
     font-size: 1.2rem;
-    
+    word-break: keep all;
+    min-width: 150px;
+    max-width: 200px;
 }
 
 nav ul li:last-child {
@@ -240,7 +242,7 @@ main {
     content: '$18.00';
     display: block;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     font-size: 1.3rem;
     color: #fff;
@@ -295,7 +297,7 @@ section#products .product {
     position: relative;
     background-color: #fff;
     box-shadow: 0 0 2px 1px #000;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 .tag {
@@ -395,14 +397,18 @@ footer .copyright {
 /* Desktop Screen size */
 
 @media screen and (min-width: 600px) {
+    .hero-sec h2:before  {
+        top: 80%;
+    }
+    
     .container div {
         column-gap: 35px;
         width: 100%;
     }
 
     section#products .product {
-        width: 30%;
-        
+        min-width: 30%;
+        max-width: 40%;
         
     }
 
