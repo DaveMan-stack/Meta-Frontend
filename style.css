@@ -270,6 +270,7 @@ section#products {
 .products > .menu-heading {
     display: block;
     width: 100%;
+    text-align: center;
 }
 
 h2.h1 {
