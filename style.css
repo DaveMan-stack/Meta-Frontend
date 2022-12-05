@@ -274,7 +274,7 @@ section#products {
 
 h2.h1 {
     margin: 20px auto;
-    
+    width: auto;
 }
 
 .menu-heading p {
