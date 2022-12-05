@@ -234,7 +234,7 @@ main {
     padding: 8px;
     border-radius: 5px;
     color: #fff;
-    width: 2.4rem;
+    width: 120px;
     margin-top: 25px;
 }
 
@@ -267,14 +267,18 @@ section#products {
 }
 
 
-.products > .menu-heading {
+.products .menu-heading {
     display: block;
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: rgb(255, 255, 0);
+    
 }
 
+section.products .menu-heading {
+    padding-top: 40px;
+    background-color: rgb(255, 255, 0);
+}
 h2.h1 {
     margin: 20px auto;
     text-align: center;
