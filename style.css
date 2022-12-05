@@ -268,15 +268,13 @@ section#products {
 
 
 .products > .menu-heading {
-    text-align: center;
     display: block;
     width: 100%;
 }
 
 h2.h1 {
-    margin: 0 auto;
-    top: 0;
-    left: 0;
+    margin: 20px auto;
+    
 }
 
 .menu-heading p {
