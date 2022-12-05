@@ -260,8 +260,8 @@ section#products {
     row-gap: 60px;
     column-gap: 15px;
     background-color: rgb(255, 255, 0);
-    padding-top: 90px; 
-    padding-bottom: 90px;
+    padding-top: 40px; 
+    padding-bottom: 40px;
     text-align: center;
     color: #000;
 }
@@ -290,7 +290,6 @@ h2.h1 {
 
 
 section#products .product {
-    padding-top: 10px;
     width: 60%;
     text-align: center;
     height: 300px;
