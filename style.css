@@ -271,11 +271,13 @@ section#products {
     display: block;
     width: 100%;
     text-align: center;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 0)
 }
 
 h2.h1 {
     margin: 20px auto;
-    width: auto;
+    text-align: center;
 }
 
 .menu-heading p {
