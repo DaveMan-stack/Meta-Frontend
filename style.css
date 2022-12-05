@@ -234,7 +234,7 @@ main {
     padding: 8px;
     border-radius: 5px;
     color: #fff;
-    width: 40px;
+    width: 1.2em;
     margin-top: 25px;
 }
 
@@ -242,7 +242,7 @@ main {
     content: '$18.00';
     display: block;
     position: absolute;
-    top: 87%;
+    top: 80%;
     left: 50%;
     font-size: 1.3rem;
     color: #fff;
